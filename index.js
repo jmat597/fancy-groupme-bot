@@ -16,6 +16,7 @@ function Bot (config) {
   for (var key in config) if ( config.hasOwnProperty(key) )  this[key] = config[key];
   if (this.token && this.group && this.name && this.bot_id) {
     console.log("Config exists");
+    this.botId = this.bot_id;
   } else {
     console.log("pass me config so you can actually be a bot");
   }
