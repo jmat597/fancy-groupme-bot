@@ -5,6 +5,7 @@ const events = require('events');
 const util = require('util');
 const http = require('http');
 const formidable = require('formidable');
+console.log("Running jmat-bot-wrap 12.38");
 
 // config { token:groupme token,
 //          group:the room to connect to,
